@@ -43,7 +43,3 @@ function getIssues() {
     }
   }).then(res => res.json).then(json => displayIssues(json))
 }
-
-function displayIssues(json) {
-  debugger
-}
